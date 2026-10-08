@@ -21,7 +21,10 @@ public class Producto {
     public double getPrecio() {
         return precio;
     }
+}
 
+//
+    public class Main{
     public static void main(String[] args) {
         Producto producto = new Producto(150);
         producto.setPrecio(200);
